@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import { data } from "../restApi.json";
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
+
 const Navbar = () => {
   const [show, setShow] = useState(false);
+
   return (
     <>
       <nav>
-        <div className="logo">ZEESH</div>
+        <div className="logo">Sam</div>
+
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
             {data[0].navbarLinks.map((element) => (
@@ -17,15 +20,27 @@ const Navbar = () => {
                 smooth={true}
                 duration={500}
                 key={element.id}
+                activeClass="active"
               >
                 {element.title}
               </Link>
             ))}
           </div>
-          <button className="menuBtn">OUR MENU</button>
+
+          {/* Updated OUR MENU button to scroll to section with id="menu" */}
+          <Link
+            to="menu"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="menuBtn"
+          >
+            OUR MENU
+          </Link>
         </div>
-        <div className="hamburger" onClick={()=> setShow(!show)}>
-                <GiHamburgerMenu/>
+
+        <div className="hamburger" onClick={() => setShow(!show)}>
+          <GiHamburgerMenu />
         </div>
       </nav>
     </>

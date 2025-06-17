@@ -5,19 +5,19 @@
                 "id": 1,
                 "image": "./quality_food.svg",
                 "title": "QUALITY FOOD",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "We use only the freshest ingredients, sourced locally whenever possible, and every dish is crafted with care and passion. Our kitchen is a place where quality meets creativity."
             },
             {
                 "id": 2,
                 "image": "./super_taste.svg",
                 "title": "SUPER TASTE",
-                "description": "Lorem ipsum dolor sit amet consectetur, adipisicing sit amet elit. Sit voluptates quaerat pariatur." 
+                "description": "Each bite is a burst of flavor — carefully balanced spices, authentic recipes, and a commitment to excellence. Taste that lingers, in the best way."
             },
             {
                 "id": 3,
                 "image": "./fast_delivery.svg",
                 "title": "FAST DELIVERY",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
+                "description": "Your cravings shouldn’t have to wait. Enjoy quick, reliable delivery with your food arriving hot, fresh, and right on time — just the way you like it."
             }
         ],
         "dishes": [
@@ -73,8 +73,8 @@
         "team": [
             {
                 "id": 1,
-                "image": "./team_member_1.png",
-                "name": "JOHNATHAN TYLER",
+                "image": "./sameera.jpg",
+                "name": "Sameera Begum",
                 "designation": "Founder & Head Chef"
             },
             {
@@ -100,21 +100,20 @@
             {
                 "id": 1,
                 "image": "./review1.png",
-                "description": "Morbi nulla nec dui lacus, in. Libero in pretium metus massa. Sodales dignissim vitae mauris varius faucibus. Eleifend dui, non laoreet ac luctus facilisis diam. Enim scelerisque vel at id viverra tellus.",
+                "description": "Absolutely loved the food! The flavors were rich and authentic — I’ll definitely be back soon.",
                 "rating": 4,
                 "userName": "Jane Cooper"
             },
             {
                 "id": 2,
                 "image": "./review2.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
-                "rating": 4.5,
+                "description": "From service to taste, everything was top-notch. A must-visit for food lovers!",
                 "userName": "Esther Howard"
             },
             {
                 "id": 3,
                 "image": "./review3.png",
-                "description": "Tortor vel nunc netus pharetra enim, enim dolor mauris in. Sit nam fringilla in egestas. Libero condimentum quis in vulputate adipiscing venenatis augue. Venenatis faucibus.",
+                "description": "Five stars for the hospitality and freshness! Easily one of my favorite spots in town.",
                 "rating": 5,
                 "userName": "Guy Hawkins"
             }

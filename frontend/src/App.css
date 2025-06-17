@@ -605,54 +605,72 @@ nav svg {
 /* TEAM COMPONENT STYLING */
 /*********************************************************************************************************************/
 .team {
-  display: flex;
-  min-height: 60vh;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  padding: 4rem 0;
+  background-color: #fff8f0;
 }
+
 .team .container {
-  max-width: 1500px;
-  min-width: 1500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
-.team .container .heading_section {
+
+.team .heading_section {
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 3rem;
 }
-.team .container .heading_section p {
+
+.team .heading_section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
   color: #333;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 1.5rem;
 }
-.team .container .team_container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+
+.team .heading_section p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 0.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.team .container .team_container .card {
-  width: 25%;
-  padding: 20px;
-  margin-bottom: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.team .team_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
 }
-.team .container .team_container .card img {
-  width: 175px;
+
+.team .card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team .card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f4e1d2;
   margin-bottom: 1rem;
 }
-.team .container .team_container .card h3 {
-  font-size: 1.5rem;
-}
-.team .container .team_container .card p {
-  font-size: 18px;
-  font-weight: 300;
+
+.team .card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
   color: #333;
 }
+
+.team .card p {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 0.25rem;
+}
+
 @media (max-width: 1520px) {
   .team .container {
     min-width: 100%;

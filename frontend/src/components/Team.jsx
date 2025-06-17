@@ -7,10 +7,8 @@ const Team = () => {
         <div className="heading_section">
           <h1 className="heading">OUR TEAM</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            fugit dicta, ipsum impedit quam laboriosam quas doloremque quia
-            perferendis laborum.
-          </p>
+            "Meet the passionate chefs behind every flavor you love. From concept to creation, our team crafts each dish with dedication, creativity, and a love for food that shines through every bite."
+  </p>
         </div>
         <div className="team_container">
           {data[0].team.map((element) => {
